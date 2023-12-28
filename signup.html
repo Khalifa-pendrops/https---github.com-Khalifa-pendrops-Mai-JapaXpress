@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JapaXpress - Sign Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/imgs/logo.png" alt="Bootstrap" width="200" />
+          </a>
+          <button class="signup-btn bg-white rounded border border-primary">
+            <a class="text-primary text-decoration-none" href="./signup.html">Sign up</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- / header -->
+    <div class="h3-text">
+      <h3 class="h-text text-muted m-sm-5">
+        Create your account to enjoy every of your travel adventure.
+      </h3>
+    </div>
+    
+	<div class="main-body d-flex gap-5">
+		<div class="card-left bg-light w-sm-25 p-5 my-4">
+    <div class="account-top pt-4">
+		  <h5>Create your account</h5>
+      <div class="d-flex gap-2 mb-3">
+        <button class="social bg-primary rounded border-primary gap-2">
+          <img src="./assets/imgs/facebook.png" alt="" width="20px" />
+          <p class="text-light my-2 d-flex">Facebook</p>
+        </button>
+        <button class="social bg-white rounded border border-primary gap-2">
+          <img src="./assets/imgs/google.png" alt="" width="15px" />
+          <p class="text-primary my-2 d-flex">Google</p>
+        </button>
+      </div>
+
+      <div></div>
+      <p>We never share anything without your permission</p>
+      <hr class="custom-hr"/>
+	</div>
+      <input
+        class="my-3"
+        type="text"
+        name="name"
+        id="fullName"
+        placeholder="Full name"
+      />
+      <input type="text" name="email" id="email" placeholder="Email" />
+      <input
+        class="my-3"
+        type="text"
+        name="password"
+        id="pwd"
+        placeholder="Password"
+      />
+      <p class="signup-text2 my-2 mx-5">
+        By clicking on “Create your account” I accept the privacy and the
+        General terms & Conditios of JapaXpress.
+      </p>
+	  <div class="checkbox">
+		<input type="checkbox" name="text" id="text">
+		<p class="check-text my-4">Send me discount codes, alerts and a birthday surprise with JapaXpress newslater</p>
+	  </div>
+	  <div class="d-flex flex-column justify-content-center align-items-center">
+		<button class="create-btn bg-primary rounded border-primary w-50">Create your account</button>
+	  ..................................................
+	  <p class="a-tag">Already have an account? <a href="#">Log in now!</a></p>
+	  </div>
+    	</div>
+		<div class="card-2 h-50 bg-primary text-white p-5 rounded-1 my-4">
+			<h4>Create your account in few minutes</h4>
+			<p class="p">Sign up to experience a lifetime of travel advantages</p>
+			<h6>Log in for quicker booking process</h6>
+			<p class="p">Store your personal details to speed up future purchases</p>
+		</div>
+	</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
